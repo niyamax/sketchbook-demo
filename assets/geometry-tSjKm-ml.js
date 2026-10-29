@@ -1,0 +1,1 @@
+const a=Object.freeze({x:-.45,y:.65,z:1});function n(t){return{x:t.x-t.z*a.x/a.z,y:t.y+t.z*a.y/a.z}}function s(t){const e=Math.max(0,Math.min(1,t));return e===0||e===1?0:Math.sin(Math.PI*e)**2}const c=5/4;export{a as B,c as P,s as n,n as p};
